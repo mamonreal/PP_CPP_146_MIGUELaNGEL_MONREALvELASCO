@@ -1,0 +1,41 @@
+Peliculas:
+Batman
+	Acción, Aventura
+	The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker. 
+
+El diario de Noa
+	Drama, Romance
+	A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences. 
+
+TMNT
+	Acción, Ciencia ficción
+	Unas tortugas son alteradas geneticamente y salvan la ciudad de NY
+
+Rambo
+	Acción, Thriler, Guerra
+	In Thailand, John Rambo joins a group of missionaries to venture into war-torn Burma, and rescue a group of Christian aid workers who were kidnapped by the ruthless local infantry unit. 
+
+Series:
+Modern Family
+	Comedia, Romance
+Three different, but related families face trials and tribulations in their own uniquely comedic ways.
+
+Castle
+	Comedia, Crimen, Drama
+After a serial killer imitates the plots of his novels, successful mystery novelist Richard Rick Castle receives permission from the Mayor of New York City to tag along with an NYPD homicide investigation team for research purposes. 
+
+El mentalista
+	Crimen, Drama, Misterio
+A famous psychic outs himself as a fake and starts working as a consultant for the California Bureau of Investigation so he can find Red John, the madman who killed his wife and daughter. 
+
+Shameless
+	Comedia, Drama
+An alcoholic man lives in a perpetual stupor while his six children with whom he lives cope as best they can. 
+
+Documentales:
+
+	Política
+
+
+	Politica
+
