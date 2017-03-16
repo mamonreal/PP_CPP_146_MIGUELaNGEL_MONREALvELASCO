@@ -19,8 +19,7 @@ public:
 
 	virtual void print();
 
-protected:
-
+	bool equals(const Pelicula *p) const;
 
 private:
 	unsigned int duracion;

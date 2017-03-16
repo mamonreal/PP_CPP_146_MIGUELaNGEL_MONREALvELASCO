@@ -10,6 +10,7 @@
 #include "Pelicula.h"
 #include "Serie.h"
 #include "Documental.h"
+#include "Saga.h"
 #include <list>
 #include <fstream>
 
@@ -21,6 +22,7 @@ public:
 	void add_film(Pelicula* film);
 	void add_series(Serie* series);
 	void add_documentary(Documental* documentary);
+	void add_saga(Saga *s);
 
 	//Se buscara una pelicula serie o documental a partir de su título
 	//y se elimina
@@ -50,6 +52,7 @@ private:
 	std::list<Pelicula*> peliculas;
 	std::list<Serie*> series;
 	std::list<Documental *> documentales;
+	std::list<Saga *> sagas;
 
 	std::list<Pelicula*>::iterator itPeliculas;
 	std::list<Serie*>::iterator itSeries;

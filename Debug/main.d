@@ -1,5 +1,5 @@
 main.o: ../main.cpp ../Catalogo.h ../Pelicula.h ../Contenido.h ../Serie.h \
- ../Temporada.h ../Episodio.h ../Documental.h
+ ../Temporada.h ../Episodio.h ../Documental.h ../Saga.h
 
 ../Catalogo.h:
 
@@ -14,3 +14,5 @@ main.o: ../main.cpp ../Catalogo.h ../Pelicula.h ../Contenido.h ../Serie.h \
 ../Episodio.h:
 
 ../Documental.h:
+
+../Saga.h:

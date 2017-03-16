@@ -9,6 +9,7 @@ CPP_SRCS += \
 ../Documental.cpp \
 ../Episodio.cpp \
 ../Pelicula.cpp \
+../Saga.cpp \
 ../Serie.cpp \
 ../Temporada.cpp \
 ../main.cpp 
@@ -19,6 +20,7 @@ OBJS += \
 ./Documental.o \
 ./Episodio.o \
 ./Pelicula.o \
+./Saga.o \
 ./Serie.o \
 ./Temporada.o \
 ./main.o 
@@ -29,6 +31,7 @@ CPP_DEPS += \
 ./Documental.d \
 ./Episodio.d \
 ./Pelicula.d \
+./Saga.d \
 ./Serie.d \
 ./Temporada.d \
 ./main.d 

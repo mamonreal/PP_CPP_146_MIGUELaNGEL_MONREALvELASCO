@@ -35,6 +35,9 @@ int main(){
 	Pelicula *p3 = new Pelicula("Superman", "Acción", "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero. ", 143);
 	Pelicula *p4 = new Pelicula("TMNT", "Acción", "Unas tortugas son alteradas geneticamente y salvan la ciudad de NY", 130);
 	Pelicula *p5 = new Pelicula("Rambo", "Acción", "In Thailand, John Rambo joins a group of missionaries to venture into war-torn Burma, and rescue a group of Christian aid workers who were kidnapped by the ruthless local infantry unit. ", 92);
+	Pelicula *p6 = new Pelicula("Star Wars IV", "Aventura", "Parte primera de la saga Star Wars", 123);
+	Pelicula *p7 = new Pelicula("Star Wars V", "Aventura", "Segunta parte de la saga Star Wars", 115);
+	Pelicula *p8 = new Pelicula("Star Wars VI", "Aventura", "Tercera parte de la saga Star Wars", 124);
 
 	p->add_genero("Aventura");
 	p2->add_genero("Romance");
@@ -107,16 +110,15 @@ int main(){
 	c->add_film(p3);
 	c->add_film(p4);
 	c->add_film(p5);
+	c->add_film(p6);
+	c->add_film(p7);
+	c->add_film(p8);
 	c->add_series(s);
 	c->add_series(s2);
 	c->add_series(s3);
 	c->add_series(s4);
 	c->add_documentary(d);
 	c->add_documentary(d2);
-
-	Temporada tp;
-	tp.add_chapter(e9);
-	tp.add_chapter(e8);
 
 	t->add_chapter(e);
 	t->add_chapter(e2);
@@ -178,12 +180,25 @@ int main(){
 	std::cout << "\n" << "Se guarda una copia de la coleccion en el archivo copy.txt" << "\n" << std::endl;
 	c->to_txt();
 
+	//-------------------------PARTE DEL EXAMEN------------------------
+	Saga *sg = new Saga("Star Wars", "Aventuras", "Saga original Star Wars");
+	//Añade peliculas a la saga
+	sg->add_film(p6);
+	sg->add_film(p7);
+	sg->add_film(p8);
+	//Añade saga al catálogo
+	c->add_saga(sg);
+	std::cout << "\n" << "Se ha creado la saga Star Wars" << "\n" << std::endl;
+
 	//--------------------------DELETE DE PELICULAS---------------------------
 	delete(p);
 	delete(p2);
 	delete(p3);
 	delete(p4);
 	delete(p5);
+	delete(p6);
+	delete(p7);
+	delete (p8);
 
 	//---------------------------DELETE DE SERIES---------------------------
 	delete(s);
@@ -224,6 +239,8 @@ int main(){
 	delete(e19);
 	delete(e20);
 
+	//-----------------------------DELETE DE SAGA------------------------------
+	delete(sg);
 
 	//------------------------------DELETE DE CATALOGOS-----------------------------
 	delete(c);

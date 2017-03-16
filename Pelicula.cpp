@@ -32,4 +32,8 @@ void Pelicula::print() {
 	std::cout << std::endl;
 }
 
+bool Pelicula::equals(const Pelicula *p) const{
+	this->get_title() == p->get_title();
+}
+
 

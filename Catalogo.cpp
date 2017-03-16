@@ -29,6 +29,10 @@ void Catalogo::add_documentary(Documental* documentary){
 	documentales.push_back(documentary);
 }
 
+void Catalogo::add_saga(Saga *s) {
+	sagas.push_back(s);
+}
+
 //------------------METODOS PARA ELIMINAR ELEMENTOS---------------------
 void Catalogo::delete_film(std::string title) {
 	itPeliculas = peliculas.begin();
